@@ -28,7 +28,7 @@ public class Matematicas {
      * @param producto es el producto al que se le va a aplicar el recargo
      * @return el precio final del producto con el recargo aplicado y los gastos de envio
      */
-    public float calcularRecargo(Producto producto) {
+    public static float calcularRecargo(Producto producto) {
         final float PORCENTAJE_RECARGO = 1.16f;
         final short LIMITE = 300;
         final short GASTOS_ENVIO = 10;
